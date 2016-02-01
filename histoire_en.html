@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset = "utf-8" >
+		<meta name="Author" content="Evan Guélard" />
+		<meta name="robots" content="all, index, follow" /> 
+		<link rel="stylesheet" href="dream_box.css" >
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('.scrollTo').click( function() { // Au clic sur un élément
+				var page = $(this).attr('href'); // Page cible
+				var speed = 1450; // Durée de l'animation (en ms)
+				$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+				return false;
+				});
+			});
+		</script>
+		<link rel="SHORTCUT ICON" href="ressources/images/logo2_.png">
+		<title> Dream Box - History </title>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.trancendances.fr/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 5]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//analytics.trancendances.fr/piwik/piwik.php?idsite=5" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+	</head>
+	
+	<body>
+		<header id="header">
+			<nav id = "menu">
+				<ul>
+					<li> <a href = "index_en.html" > <img src = "ressources/images/logo2.png" alt = "Dream_Box" id="logo"></a> </li>
+					<li> <a href = "index.html" > HOME </a> </li>
+					<li> <a href = "histoire.html" > <img src = "ressources/images/fr.jpg" alt = "FR" class = "flag" id = "flag_lien"> </a> </li>
+				</ul>
+			</nav>
+		</header>
+		<br><br><br><br><br><br>
+		<img src = "ressources/images/arc_en.png" alt = "Dream_Box" id="sous_b">
+		
+		<div id="fleche">
+		   <a href=#header class="scrollTo"><img src="ressources/images/fleche_haut.png" alt="haut" id="fleche_haut"/></a>
+		   <br>
+		   <a href=#footer class="scrollTo"><img src="ressources/images/fleche_bas.png" alt="bas" id="fleche_bas"/></a>
+		</div>
+		<br><br>
+		<div class="titre" id="histoire">
+			<h1> Histoire </h1>
+		</div>
+		<br><br>
+		<div class="gros_bloc" >
+			<p> 
+				Historically, the dream was something great, infinity itself. Man has long sought means to understand and master the infinite.
+				The premonitory dreams, repetitive dreams, erotic dreams, lucid dreams, never the secret has not been drilled.
+				Some people helpless turned to mystical things, or even illegal in order to rise into the upper echelons of the dream. These methods, dangerous, expensive and even prohibited finally shown that dreams escape us.
+				Except for Mr. Kandlekarlmeister which in 2014 had the wonderful idea of ​​a trap for his dreams. Thus man, February 31, succeeded in blocking the imagination itself in a box. It was the first Dream Box.
+				His childhood friend, Evan Guélard, if questioned about this: to catch dreams
+				After several nights, also working with William Henn, three acolytes finally open their business, their products? The Dream Box, sell dreams.
+			</p>
+				
+			<br><br><br>
+		</div>
+		<footer id="footer">
+			<h1>Dream Box</h1>
+			<div id="div_rs" class = "r_s_footer">
+				<a href = "https://www.facebook.com/dreamboxfr" target="_blank"><img src = "ressources/images/fb.png" alt = "FaceBook" class = "r_s" id="fb"/></a>
+				<a href = "https://twitter.com/Dream_Box_fr" target="_blank"><img src = "ressources/images/tw.png" alt = "Twitter" class = "r_s" id="tw"/></a>
+			
+				<a href = "" target="_blank"><img src = "ressources/images/g_plus.png" alt = "Google+" class = "r_s" id="g_plus"/></a>
+				<a href = "" target="_blank"><img src = "ressources/images/rss.png" alt = "RSS" class = "r_s" id="rss"/></a>
+			</div>
+			<p>Copyright © 2014 Dream Box </p>
+			<p>Website created by Evan Guélard and Guillaume Henn - <a href = "mentions_legales_en.html" target="_blank"> Legal Notice </a> </p>
+		</footer>
+	</body>
+	
+</html>

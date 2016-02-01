@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset = "utf-8" >
+		<meta name="Author" content="Evan Guélard" />
+		<meta name="robots" content="all, index, follow" /> 
+		<link rel="stylesheet" href="dream_box.css" >
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('.scrollTo').click( function() { // Au clic sur un élément
+				var page = $(this).attr('href'); // Page cible
+				var speed = 1450; // Durée de l'animation (en ms)
+				$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+				return false;
+				});
+			});
+		</script>
+		<link rel="SHORTCUT ICON" href="ressources/images/logo2_.png">
+		<title> Dream Box - Histoire </title>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.trancendances.fr/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 5]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//analytics.trancendances.fr/piwik/piwik.php?idsite=5" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+	</head>
+	
+	<body>
+		<header id="header">
+			<nav id = "menu">
+				<ul>
+					<li> <a href = "index.html" > <img src = "ressources/images/logo2.png" alt = "Dream_Box" id="logo"></a> </li>
+					<li> <a href = "index.html" > ACCUEIL </a> </li>
+					<li> <a href = "histoire_en.html" > <img src = "ressources/images/en.png" alt = "EN" class = "flag" id = "flag_lien"> </a> </li>
+				</ul>
+			</nav>
+		</header>
+		<br><br><br><br><br><br>
+		<img src = "ressources/images/arc.png" alt = "Dream_Box" id="sous_b">
+		
+		<div id="fleche">
+		   <a href=#header class="scrollTo"><img src="ressources/images/fleche_haut.png" alt="haut" id="fleche_haut"/></a>
+		   <br>
+		   <a href=#footer class="scrollTo"><img src="ressources/images/fleche_bas.png" alt="bas" id="fleche_bas"/></a>
+		</div>
+
+		
+		<br><br>
+		<div class="titre" id="histoire">
+			<h1> Histoire </h1>
+		</div>
+		<br><br>
+		<div class="gros_bloc" >
+			<p> 
+				Depuis toujours, le rêve a été quelque chose de grand, d'infini même. L'Homme a longuement cherché des moyens de pouvoir comprendre et maitriser cet infini.
+				Les rêves prémonitoire, les rêves repetitifs, les rêves érotiques, les rêves lucides, jamais le secret n'a été percé.
+				Certaines personnes désemparées se tournèrent vers des choses mystiques, voire même illicites afin de pouvoir s'élever dans les hautes sphères du rêve. Ces méthodes, dangereuses, coûteuses et même interdites ont finalement montré que les rêves nous échappent.
+				Sauf pour M. Kandlekarlmeister qui, en l'année 2014 eu la merveilleuse idée de tendre un piège à ses rêves. Ainsi, l'homme, le 31 Février, reussi à bloquer l'imagination elle-même dans une boite. Ce fut la toute première Dream Box.
+				Son ami d'enfance, Evan Guélard, se questionna à ce sujet : pouvoir attraper les rêves
+				Après plusieurs nuits, travaillant également avec Guillaume Henn, les trois accolytes finirent par ouvrir leur entreprise, leur produits ? Les Dream Box, vendre du rêve.
+			</p>
+				
+			<br><br><br>
+		</div>
+		<footer id="footer">
+			<h1>Dream Box</h1>
+			<div class="div_rs" id = "r_s_footer">
+				<a href = "https://www.facebook.com/dreamboxfr" target="_blank"><img src = "ressources/images/fb.png" alt = "FaceBook" class = "r_s_footer" id="fb2"/></a>
+				<a href = "https://twitter.com/Dream_Box_fr" target="_blank"><img src = "ressources/images/tw.png" alt = "Twitter" class = "r_s_footer" id="tw2"/></a>
+			
+				<a href = "" target="_blank"><img src = "ressources/images/g_plus.png" alt = "Google+" class = "r_s_footer" id="g_plus2"/></a>
+				<a href = "" target="_blank"><img src = "ressources/images/rss.png" alt = "RSS" class = "r_s_footer" id="rss2"/></a>
+			</div>
+			<p>Copyright © 2014 Dream Box </p>
+			<p>Site réalisé par Evan Guélard et Guillaume Henn - <a href = "mentions_legales.html" target="_blank"> Mentions légales </a> </p>
+		</footer>
+	</body>
+	
+</html>

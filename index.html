@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset = "utf-8" >
+		<meta name="Author" content="Evan Guélard" />
+		<meta name="keywords" content="evan, guélard, guillaume, henn, dream, box, dreambox"/>
+		<link rel="stylesheet" href="dream_box.css" >
+		<script type="text/javascript" src="dream_box.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('.scrollTo').click( function() { // Au clic sur un élément
+				var page = $(this).attr('href'); // Page cible
+				var speed = 1450; // Durée de l'animation (en ms)
+				$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+				return false;
+				});
+			});
+		</script>
+		<link rel="SHORTCUT ICON" href="ressources/images/logo2_.png">
+		<title> Dream Box </title>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.trancendances.fr/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 5]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//analytics.trancendances.fr/piwik/piwik.php?idsite=5" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+	</head>
+	
+	<body>
+		<br id="header"><br><br><br><br><br><br>
+		<img src = "ressources/images/arc.png" alt = "dream_box" id="sous_b">
+		<br><br>
+	
+		
+		<div id="fleche">
+		   <a href=#header class="scrollTo"><img src="ressources/images/fleche_haut.png" alt="haut" id="fleche_haut"/></a>
+		   <br>
+		   <a href=#footer class="scrollTo"><img src="ressources/images/fleche_bas.png" alt="bas" id="fleche_bas"/></a>
+		</div>
+	<!--______________________ACCEUIL______________________-->	
+		<br><br>
+		<div class="titre" id="accueil">
+			<br><br><br><br>
+			<h1> ACCUEIL </h1>
+		</div>
+		<br><br>
+		<div class="gros_bloc">
+			<p> 
+				Dream Box est une nouvelle start-up, vendant des boîtes cadeaux, le but est de faire en sorte que la boîte puisse faire rêver le client à son ouverture et à l’utilisation de son contenu. 
+				<br><br>Vous pouvez retrouver nos produits dans la rubrique « Produits ».
+				<br><br>Pour en savoir plus sur notre start-up, dans la rubrique « A propos », il y a une catégorie « Histoire », un trombinoscope sur notre équipe de travail, ainsi que la liste de nos partenaires.
+				<br><br>Pour toutes suggestions, la rubrique « Contact » vous est disponible.
+
+			</p>
+			
+			<br>
+			<h2 class="catégorie" >Meilleure vente :</h2>
+			<hr>
+			
+			<div class="blocs"  id="best_sell">
+				<table>
+					<tr>
+						<td> 
+							<div class="image_produit">
+								<img src="ressources/images/boite.png"  alt="boite"/>
+							</div>
+						</td>
+						
+						<td>
+							<table>
+								<tr>
+									<th class="s_titre" >Boîte de mémoire</th>
+								</tr>
+								<tr> <td class="texte" > Marre de ne jamais vous souvenir de vos rêves ? Sans pour autant vouloir rêver d'une chose en particulier ? Cette boîte est faite pour vous ! Cette boîte va vous permettre, à votre réveil, de vous souvenir de l'intégralité de votre rêve comme si vous le viviez de nouveau, ainsi, vous pourrez le raconter a vos amis et vos proches sans l'ombre d'une incertitude ! </td> </tr>
+								<tr>
+									<td class="prix">
+										50 € -
+										<a href="javascript:alert('Cette offre est en cours de réapprovisionnement');" > Commander</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<br><br>
+			<h2 class="catégorie" >Dernière actualité :</h2>
+			<hr>
+			<div class="actu">
+				<table>
+					<tr>
+						<td class="s_titre">
+							Nouveau logo
+							<div class="image_produit">
+								<img src="ressources/images/logo2.png" width="165" alt="logo"/>
+							</div>
+						</td>
+						<td>
+							<div class="texte_produit">
+								
+							
+							<p class="texte"> Après avoir eu un logo très peu design, voici le nouveau logo de Dream Box ! Plus joli, plus efficace et plus professionnel. Merci au designer Thomas Le Gourrierec pour ce magnifique logo !
+							</p>
+
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!--______________________ACTUALITES______________________-->
+		<div class="titre" id="actualites">
+			<br><br><br><br>
+			<h1> ACTUALITES </h1>
+		</div>
+		<br><br>
+		<div class="gros_bloc">
+			<h3 id="texte_rs">Pour tout savoir sur Dream Box, suivez-nous sur :   </h3>
+			<br>
+			<div class="div_rs">
+				<a href = "https://www.facebook.com/dreamboxfr" target="_blank"><img src = "ressources/images/fb.png" alt = "FaceBook" class = "r_s" id="fb"/></a>
+				<a href = "https://twitter.com/Dream_Box_fr" target="_blank"><img src = "ressources/images/tw.png" alt = "Twitter" class = "r_s" id="tw"/></a>
+			
+				<a href = "" target="_blank"><img src = "ressources/images/g_plus.png" alt = "Google+" class = "r_s" id="g_plus"/></a>
+				<a href = "" target="_blank"><img src = "ressources/images/rss.png" alt = "RSS" class = "r_s" id="rss"/></a>
+			</div>
+			<br><br>
+			<div class="actu">
+				<table>
+					<tr>
+						<td class="s_titre">
+							Nouveau logo
+							<hr>
+							<div class="image_produit">
+								<img src="ressources/images/logo2.png" width="165" alt="logo"/>
+							</div>
+						</td>
+						<td>
+							<div class="texte_produit">
+								
+							
+							<p class="texte"> Après avoir eu un logo très peu design, voici le nouveau logo de Dream Box ! Plus joli, plus efficace et plus professionnel. Merci au designer Thomas Le Gourrierec pour ce magnifique logo !
+							</p>
+
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<br>
+			<div class="actu">
+				<table>
+					<tr>
+						<td class="s_titre">
+							La boîte de vos rêves ?
+							<hr>
+							<div class="image_produit">
+								<img src="ressources/images/dream_ask.png" width="165" alt="avez_vous_un_reve"/>
+							</div>
+						</td>
+						<td>
+							<div class="texte_produit">
+								
+							
+							<p class="texte"> Proposez-nous la boîte de vos rêves. Pour cela, rendez-vous dans la rubrique "Contact".
+							</p>
+
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<br>
+			<div class="actu">
+				<table>
+					<tr>
+						<td class="s_titre">
+							Réseaux sociaux
+							<hr>
+							<div class="image_produit">
+								<img src="ressources/images/r_s.png" width="165" alt="reseaux_sociaux"/>
+							</div>
+						</td>
+						<td>
+							<div class="texte_produit">
+								
+							
+							<p class="texte"> Dream Box a envahi les réseaux sociaux, retrouvez-nous maintenant sur facebook et twitter ! 
+							Nous partagerons des messages concernant les box en cours d'élaboration ainsi que d'autres news. 
+							N'attendez pas, venez communiquer avec nous sur votre réseau social préféré en cliquant sur les liens en haut de la rubrique "Actualités" ou en bas de page !
+							</p>
+
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!--______________________PRODUITS______________________-->
+		<div class="titre" id="produits">
+			<br><br><br><br>
+			<h1> PRODUITS </h1>
+		</div>
+		<br><br>
+		<div class="gros_bloc">
+			<h2>Boîtes Cadeaux</h2>
+			<hr>
+			<div class="blocs">
+				<table>
+					<tr>
+						<td> 
+							<div class="image_produit">
+								<img src="ressources/images/boite.png"  alt="boite"/>
+							</div>
+						</td>
+						
+						<td>
+							<table>
+								<tr>
+									<th class="s_titre" >Boîte de mémoire</th>
+								</tr>
+								<tr> <td class="texte" > Marre de ne jamais vous souvenir de vos rêves ? Sans pour autant vouloir rêver d'une chose en particulier ? Cette boîte est réellement faite pour vous ! Cette boîte va vous permettre, à votre réveil, de vous souvenir de l'intégralité de votre rêve comme si vous le viviez de nouveau, ainsi, vous pourrez le raconter à vos amis et vos proches sans l'ombre d'une incertitude ! </td> </tr>
+								<tr>
+									<td class="prix">
+										50 € -
+										<a href="javascript:alert('Cette offre est en cours de réapprovisionnement');" > Commander</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="blocs">
+				<table>
+					<tr>
+						<td> 
+							<div class="image_produit">
+								<img src="ressources/images/boite.png"  alt="boite"/>
+							</div>
+						</td>
+						
+						<td>
+							<table>
+								<tr>
+									<th class="s_titre">Course de voiture sur circuit</th>
+								</tr>
+								<tr>
+									<td class="texte">Envie d'une montée d'adrénaline? Cette boîte est faite pour vous ! Avec le choix de voitures sur place, comptez un suplément pour pouvoir conduire vous-même le bolide de vos rêves. </td>
+								</tr>
+								<tr>
+									<td class="prix">
+										99 € -
+										<a href="javascript:alert('Cette offre est en cours de réapprovisionnement');" > Commander</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="blocs">
+				<table>
+					<tr>
+						<td> 
+							<div class="image_produit">
+								<img src="ressources/images/boite.png"  alt="boite"/>
+							</div>
+						</td>
+						
+						<td>
+							<table>
+								<tr>
+									<th class="s_titre">Supplément de rêve</th>
+								</tr>
+								<tr>
+									<td class="texte">Si vous trouvez que vos rêves sont trop courts ou si vous aimeriez vous rendormir pour avoir la fin d'un rêve, vous êtes au bon endroit ! La boîte du supplément de rêve vous permet d'avoir des rêves qui paraissent plus longs sur exactement la même période de temps de sommeil ! Ainsi, vous pourrez, dans vos rêves, finir un repas avec votre amour, finir de sauver le monde ou tant d'autres possibilités !</td>
+								</tr>
+								<tr>
+									<td class="prix">
+										30 € -
+										<a href="javascript:alert('Cette offre est en cours de réapprovisionnement');" > Commander</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="blocs">
+				<table>
+					<tr>
+						<td> 
+							<div class="image_produit">
+								<img src="ressources/images/boite.png"  alt="boite"/>
+							</div>
+						</td>
+						
+						<td>
+							<table>
+								<tr>
+									<th class="s_titre">Nuit de rêves dans un hôtel paradisiaque</th>
+								</tr>
+								<tr>
+									<td class="texte">Dans un choix d'hôtels, passez une nuit comme vous n'avez jamais passé. Cette boîte comprend aussi le repas du soir, champagne et le petit déjeuner au lit, accès à la piscine et aux autres activités que propose l'hôtel choisi.</td>
+								</tr>
+								<tr>
+									<td class="prix">
+										269 € -
+										<a href="javascript:alert('Cette offre est en cours de réapprovisionnement');" > Commander</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="blocs">
+				<table>
+					<tr>
+						<td> 
+							<div class="image_produit">
+								<img src="ressources/images/pack.png"  alt="lot"/>
+							</div>
+						</td>
+						
+						<td>
+							<table>
+								<tr>
+									<th class="s_titre">Lot de 4 Dream Box aléatoires</th>
+								</tr>
+								<tr>
+									<td class="texte">Sur toute la gamme de Box de notre site. Les boîtes ne sont ni reprises ni échangées, aucune possiblilité de remboursement à partir du moment où le pack a été ouvert.</td>
+								</tr>
+								<tr>
+									<td class="prix">
+										250 € -
+										<a href="javascript:alert('Cette offre est en cours de réapprovisionnement');" > Commander</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<h2>Goodies</h2>
+			<hr>
+			<div class="blocs">
+				<table>
+					<tr>
+						<td> 
+							<div class="image_produit">
+								<img src="ressources/images/t_s.png"  alt="boite"/>
+							</div>
+						</td>
+						
+						<td>
+							<table>
+								<tr>
+									<th class="s_titre">Tee-shirt Dream Box</th>
+								</tr>
+								<tr>
+									<td class="texte">Envie de rêver toute la journée? Voici un magnifique tee-shirt qui rendra votre journée encore plus belle.</td>
+								</tr>
+								<tr>
+									<td class="prix">
+										18 € -
+										<a href="javascript:alert('Cette offre est en cours de réapprovisionnement');" > Commander</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="blocs">
+				<table>
+					<tr>
+						<td> 
+							<div class="image_produit">
+								<img src="ressources/images/mug.png"  alt="boite"/>
+							</div>
+						</td>
+						
+						<td>
+							<table>
+								<tr>
+									<th class="s_titre">Mug Dream Box</th>
+								</tr>
+								<tr>
+									<td class="texte">Envie de rêver toute la journée? Voici un magnifique mug qui rendra vos pauses-café plus reposantes.</td>
+								</tr>
+								<tr>
+									<td class="prix">
+										15 € -
+										<a href="javascript:alert('Cette offre est en cours de réapprovisionnement');" > Commander</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="blocs">
+				<table>
+					<tr>
+						<td> 
+							<div class="image_produit">
+								<img src="ressources/images/oreiller.png"  alt="boite"/>
+							</div>
+						</td>
+						
+						<td>
+							<table>
+								<tr>
+									<th class="s_titre">Oreiller Dream Box</th>
+								</tr>
+								<tr>
+									<td class="texte">Envie de rêver toute la nuit? Voici un magnifique oreiller qui rendra vos nuits plus paisibles.</td>
+								</tr>
+								<tr>
+									<td class="prix">
+										30 € -
+										<a href="javascript:alert('Cette offre est en cours de réapprovisionnement');" > Commander</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!--______________________CONTACT______________________-->	
+		<div class="titre" id="contact">
+			<br><br><br><br>
+			<h1> CONTACT </h1>
+		</div>
+		<div class="gros_bloc">
+			<br>
+			<br>
+				<form method="post" action="mailto:guillaume.henn@isen.fr?Subject=Message&nbsp;pour&nbsp;Dream&nbsp;Box" enctype="text/plain">
+					<p> Les champs contenant (*) sont obligatoires.</p>
+					<fieldset>
+						<legend>Identité</legend>
+						* <label for="nom">Nom :</label> 
+						<input type="text" name="Name" id="nom" onfocus="clearIdentite();" >
+						* <label for="prenom">Pr&eacute;nom :
+						</label> 
+						<input type="text" name="First Name" id="prenom" onfocus="clearIdentite();">
+						<p id="erreur_identite" style="display: none;">Erreur sur la personne</p>
+					</fieldset>
+
+					<br>
+
+					<fieldset>
+						<legend>Adresse Mail</legend> <!-- css : #mail{width : 33%}  ne pas toucher le style ici-->
+						* <input type="text" name="Mail" id="mail" style="border-color : none" onfocus="clearMail();"><p id="erreur_mail"  style="display: none;">Erreur mail</p>
+					</fieldset>
+
+					<br>
+
+					<fieldset>
+						<legend>Inscription &agrave; la Newsletter</legend>
+						<input type="checkbox" name="Product" id="produit" >
+						<label for="produit"> Les nouveaux produits</label>
+						<input type="checkbox" name="Meeting" id="meeting" >
+						<label for="meeting">Nos salons</label>
+						<input type="checkbox" name="Recrut" id="recrut" >
+						<label for="meeting">Les recrutements</label>
+					</fieldset>
+
+					<br>
+
+					<fieldset>
+						<legend>Votre message</legend><!-- ah mettre dans CSS -->
+						<textarea id="message" name="Message" placeholder="Tapez votre message ici..." rows="10" style="width : 99.5%;"></textarea>
+					</fieldset>
+					<br>
+
+	<!-- a mettre dans CSS --> 
+					<div style="text-align: center;"> 
+						<input type="checkbox" id="condition" onclick="clearCondition();"> * En cliquant ici, vous êtes d'accord avec les <a href = "mentions_legales.html#conditions" target="_blank">Condition d'Utilisation</a><p id="erreur_condition" style="display : none;">Vous devez accepter les conditions d'utilisation.</p>
+						<br><br>
+						<input type="button" onclick="verifContact();" value="Envoyer" id="send">
+						<input type="reset" onclick="Reinit();" value="R&eacute;initialiser"></div>
+				</form>
+			<br><br>
+		</div>
+		<!--______________________A PROPOS______________________-->
+		<div class="titre" id="a_propos">
+			<br><br><br><br>
+			<h1>A PROPOS</h1>
+		</div>
+		<br><br>
+		<div class="gros_bloc" id="a_prop">
+		
+			<h2>L'entreprise :</h2>
+			<hr>
+			<p>Dream Box est une start-up vendant des boîtes cadeaux de tous types. Les boîtes sont produites avec respect de l'environnement, en effet le carton est recyclé et l'encre est la plus naturelle possible.
+			La commercialisation des Dream Box permet d'offrir une expérience unique au client. </p>
+			<p>Dream Box est une entreprise française, toutes les boîtes sont fabriquées en France.</p>
+			<p> Dream Box est une société à responsabilités limitées (SARL).</p>
+			<br>
+			<br>
+			<br>
+			
+			<h2>Histoire :</h2>
+			<hr>
+			<p>Depuis toujours, le rêve a été quelque chose de grand, d'infini même. L'Homme a longuement cherché des moyens de pouvoir comprendre et maîtriser cet infini.
+					Les rêves prémonitoires, les rêves répétitifs, les rêves érotiques, les rêves lucides, jamais le secret n'a été percé... </p>
+			<a href = "histoire.html" target="_blank"> Lire plus ... </a>
+			<br>
+			<br>
+			<br>
+			
+			<h2> Notre équipe : Guillaume Henn & Evan Guélard</h2>
+			<hr>			
+			<ul class="ch-grid" itemscope itemtype="http://schema.org/Person">
+				<li>
+					<div class="ch-item ch-img-2">
+						<div class="ch-info">
+							<h3> <span itemprop="name">Evan Guélard</span></h3>
+							<p> <span itemprop="jobTitle">HTML - Design</span></p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="ch-item ch-img-1">
+						<div class="ch-info">
+							<h3> <span itemprop="name">Guillaume Henn</span></h3>
+							<p> <span itemprop="jobTitle">JavaScript - Rédacteur</span></p>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<br>
+			<br>
+			
+			<h2> Nos partenaires :</h2>
+			<hr>
+			<div class="div_ap">
+				 <a href = "http://p-and-q.brendanabolivier.com" target="_blank"><img src = "ressources/images/p_q.png" alt = "P_Q" class = "partenaires" id="pq"></a>
+				<img src = "ressources/images/dream_event.png" alt = "Dream_Event" class = "partenaires" id ="de">
+				<img src = "ressources/images/synat.png" alt = "Sylat" class = "partenaires" id="sy">
+				<br>
+			</div>
+		</div>
+		<!--______________________FOOTER______________________-->
+		<br><br>
+		<footer id="footer">
+			<h1>Dream Box</h1>
+			<div class="div_rs" id = "r_s_footer">
+				<a href = "https://www.facebook.com/dreamboxfr" target="_blank"><img src = "ressources/images/fb.png" alt = "FaceBook" class = "r_s_footer" id="fb2"/></a>
+				<a href = "https://twitter.com/Dream_Box_fr" target="_blank"><img src = "ressources/images/tw.png" alt = "Twitter" class = "r_s_footer" id="tw2"/></a>
+			
+				<a href = "" target="_blank"><img src = "ressources/images/g_plus.png" alt = "Google+" class = "r_s_footer" id="g_plus2"/></a>
+				<a href = "" target="_blank"><img src = "ressources/images/rss.png" alt = "RSS" class = "r_s_footer" id="rss2"/></a>
+			</div>
+			<p>Copyright © 2014 Dream Box </p>
+			<p>Site réalisé par Evan Guélard et Guillaume Henn - <a href = "mentions_legales.html" target="_blank"> Mentions légales </a> </p>
+		</footer>
+		<!--______________________HEADER______________________-->
+		<header>
+			<nav id = "menu">
+				<ul>
+					<li> <a href = "index.html"> <img src = "ressources/images/logo2.png" alt = "Dream_Box" id="logo"></a> </li>
+					<li> <a href = "#accueil" class="scrollTo"> ACCUEIL </a> </li>
+					<li> <a href = "#actualites" class="scrollTo"> ACTUALITES </a> </li>
+					<li> <a href = "#produits" class="scrollTo"> PRODUITS </a> </li>
+					<li> <a href = "#contact" class="scrollTo"> CONTACT </a> </li>
+					<li> <a href = "#a_propos" class="scrollTo"> A PROPOS </a> </li> 
+					<li> <a href = "index_en.html" > <img src = "ressources/images/en.png" alt = "EN" class = "flag" id = "flag_lien"> </a> </li>
+				</ul>
+			</nav>
+		</header>
+	</body>
+</html>
